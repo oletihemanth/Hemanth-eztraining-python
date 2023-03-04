@@ -1,0 +1,61 @@
+   #string basic format
+txt="hemanth"
+index=0
+for i in txt:
+    print("message is [",index,"]=",i)
+    index+=1
+  OUTPUT:
+ message is [ 0 ]= h
+message is [ 1 ]= e
+message is [ 2 ]= m
+message is [ 3 ]= a
+message is [ 4 ]= n
+message is [ 5 ]= t
+message is [ 6 ]= h
+  
+#string basic format
+txt="the nun"
+print(txt.title())
+OUTPUT:
+The Nun
+
+  #string basic format
+txt="THE NUN"
+print(txt.lower())
+  OUTPUT:
+ the nun
+
+ #string basic format
+txt="63624"
+print(txt.zfill(4))
+ OUTPUT:
+ 63624
+
+**n= int(input("enter number="))
+s=0
+while n!=0:
+    r=n%10
+    s=s+(r*r*r)
+    n=n//10
+    if (s==n):
+        print('armstrong')
+        else:
+            print('not armstrong')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

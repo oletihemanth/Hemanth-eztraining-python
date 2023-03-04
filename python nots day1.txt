@@ -1,0 +1,126 @@
+ 
+RESERVED WORDS:
+and not break class exec finally for from or pass print continue def div import in if raise global try while return else is Lamda with yield
+
+#write a program for swapping of numbers
+a=10
+b=20
+print("before swap")
+print("a=", a)
+print("b=", b)
+a=a*b
+b=a/b
+a=a/b
+print("after swap")
+print("a=", a)
+print("b=", b)
+OUTPUT:
+before swap
+a= 10
+b= 20
+after swap
+a= 20.0
+b= 10.0
+
+#WRITE A PROGRAM CALCULATE AREA OF A TRAINGLE USING HERON'S FORMULA
+a=5
+b=6
+c=7
+s = (a+b+c)/2
+area =(s*(s-a)*(s-b)*(s-c))**0.5
+print(area)
+print(type(area))
+OUTPUT:
+14.696938456699069
+<class 'float'>
+
+#WRITE A PROGRAM TO CALCULATE THE CIRCUMFERENCE OF A CIRCLE
+print("enter of cicle:")
+r=float(input())
+pi=3.14
+circumference=2*pi*r
+print(circumference)
+OUTPUT:
+enter of cicle:
+20
+125.60000000000001 
+
+#WRITE A PROGRAM TO CHECK WHETHER THE NUM IS EVEN OR ODD
+a=14
+if a%2==0:
+    print("a is even")
+print("10 is even")
+OUTPUT:
+a is even
+10 is even
+
+# WRITE A PROGRAM TO CALCULATE LARGEST NUM OF two
+ a=int(input('enter a'))
+b=int(input('enter b'))
+if a>b:
+    print("a is greater than b")
+else:
+    print("b is grater than a")
+OUTPUT:
+enter a23
+enter b45
+b is grater than a
+
+# WRITE A PROGRAM TO CHECK WHETHER THE GIVEN NUM IS NEGATIVE,POSITIVE OR ZERO
+
+  a=int(input('enter a'))
+if a>0:
+    print("a is positive")
+elif a==0:
+    print("a is zero")
+else:
+    print("a is negative")
+OUTPUT:
+enter a0
+a is zero
+
+# WRITE A PROGRAM USING IF TO CHECK THE NUMBER'S RANGE IN THE Nth POSITION 
+ CONS:1 IF NUM=21 RANGE MUST BE 20 TO 30
+ CONS;2 IF NUM=7 RANGE MUST BE 0 TO 10
+  
+a=int(input('enter a below 30='))
+if a>0 and a<10:
+    print("range is 0 to 10")
+if a>=10 and a<20:
+    print("range is 10 to 20")
+if a>=20 and a<30:
+    print("range is 20 to 30")
+OUTPUT:
+enter a below 30=24
+range is 20 to 30
+ 
+# WRITE A PROGRAM TO CHECK MAXIMUM NUMBER
+
+a=10
+b=10
+c=10
+if a>b:
+    if a>c:
+        print("a is max")
+    else:
+        print("c is max")
+else:
+    if b>c:
+        print("b is max")
+    elif a==b==c:
+        print("all are same")
+    else:
+        print("c is max")
+        
+
+
+
+
+
+
+
+
+
+
+
+
